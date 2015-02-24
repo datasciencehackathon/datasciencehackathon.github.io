@@ -46,8 +46,8 @@ a {
     position: absolute;
     right: 0;
     top: 0;
-    background-image:url("../img/cover.jpg");
-    background-size:cover;
+    background-image:url("../img/sidebar.jpg");
+    background-size:contain;
     background-attachment:fixed;
 }
 
@@ -72,9 +72,11 @@ a {
 }
 
 #sidebar, #sidebar a {
-  color:#ffffff;
+  color:#000000;
   background-color:transparent;
 	text-shadow:1px 0 1px #888888;
+  font-size:20px;
+  font-weight:700;
 }
 
 #sidebar a:hover {
@@ -91,7 +93,7 @@ a {
   height:40px;
   width:40px;
   margin:15px;
-  font-size:26px;
+  font-size:24px;
   font-weight:700;
   text-align:center;
   text-decoration:none;
