@@ -72,7 +72,7 @@ a {
 }
 
 #sidebar, #sidebar a {
-  color:#000000;
+  color:rgb(51, 51, 51);
   background-color:transparent;
 	text-shadow:1px 0 1px #888888;
   font-size:20px;
@@ -88,8 +88,9 @@ a {
 #sidebar a.logo {
   display:block;
   padding:3px;
-  background-color:#fff;
-  color:#777777;
+  background-color:none;
+  color:none;
+  opacity: 1;
   height:40px;
   width:40px;
   margin:15px;
@@ -99,6 +100,14 @@ a {
   text-decoration:none;
   text-shadow:0 0 0;
 }
+#sidebar a.logo:hover {
+
+  background-color:none; !important
+  color:none; !important
+  opacity: 1; !important
+  
+}
+
 #sidebar-footer {
   position:absolute;bottom:5px;
   margin-left: 15px;
