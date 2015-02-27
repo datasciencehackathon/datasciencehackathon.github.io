@@ -52,9 +52,13 @@
 			text-decoration: none;
 		}
 
-	strong, b {
+	strong {
 		color: #787878;
 		font-weight: 400;
+	}
+
+	b {
+		color: #B40000;
 	}
 
 	em, i {
@@ -460,7 +464,7 @@
 			-o-transition: opacity 0.2s ease-in-out;
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
-			background: url("images/overlay.png");
+			/*background: url("images/overlay.png");*/
 			border-radius: 0.35em;
 			content: '';
 			display: block;
@@ -819,8 +823,8 @@
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #B40000;
+			color: #B40000 !important;
 		}
 
 		input[type="submit"]:active,
@@ -828,8 +832,8 @@
 		input[type="button"]:active,
 		.button:active {
 			background-color: rgba(73, 191, 157, 0.1);
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #B40000;
+			color: #B40000 !important;
 		}
 
 		input[type="submit"].icon,
