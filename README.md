@@ -1,3 +1,4 @@
 # datasciencehackathon.github.io
-2015 Hackathon
+
+Info page for the [Data Science Hackathon][https://datahackathon2015.splashthat.com]
  
