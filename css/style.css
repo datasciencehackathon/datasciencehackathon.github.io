@@ -164,9 +164,8 @@
 			overflow-x: auto;
 		}
 
-	figcaption {
+	figure {
 		text-align: center;
-		margin-left: -8px
 	}
 
 	.align-left {
