@@ -164,6 +164,11 @@
 			overflow-x: auto;
 		}
 
+	figcaption {
+		text-align: center;
+		margin-left: -8px
+	}
+
 	.align-left {
 		text-align: left;
 	}
