@@ -179,6 +179,9 @@
 	.align-right {
 		text-align: right;
 	}
+	.sub-bullet {
+		margin-left: 2em;
+	}
 
 /* Section/Article */
 
